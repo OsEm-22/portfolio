@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="Assets/fontawesome-free-6.2.1-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Assets/styles/style.css" />
+    <title>OsEm</title>
+  </head>
+  <body>
+    <!-- NAVBAR SECTION -->
+    <nav
+      class="navbar navbar-expand-sm navbar-dark bg-black bg-opacity-75 sticky-top text-white-50 mb-3 mb-md-4 p-2"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#intro">os_em</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-caret-down text-primary border-0"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-3">
+            <li class="nav-item ms-auto">
+              <a class="nav-link active" aria-current="page" href="#intro"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item ms-auto">
+              <a class="nav-link skill-btn" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item ms-auto">
+              <a class="nav-link" href="#about">About me</a>
+            </li>
+            <li class="nav-item ms-auto">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item ms-auto">
+              <a href="#contact" class="nav-link">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <main class="container-md my-4 p-lg-5" id="intro">
+      <div
+        class="row flex-md-row-reverse justify-content-between align-items-center text-center transparent-bg p-3 p-xl-4 rounded"
+        id="intro"
+      >
+        <div class="col-md-5 offset-md-1 p-0 text-md-end">
+          <img
+            src="./Assets/images/profile.jpg"
+            alt="Profile"
+            class="rounded-circle"
+            style="height: 260px"
+          />
+        </div>
+        <div class="col-md-6 text-white text-start fs-6 p-md-4">
+          <span class="text-warning">Hello, I'm</span>
+          <h3 class="text-primary">Oak Soe Maung</h3>
+          <p class="mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            reiciendis accusantium inventore ratione enim officiis aspernatur
+            aut beatae nihil eius? Impedit officia quos nisi velit! Alias ullam
+            laudantium neque sit.
+          </p>
+          <a href="#" class="btn btn-primary">Contact Me</a>
+        </div>
+      </div>
+    </main>
+    <!-- SKILL SECTION -->
+    <div
+      class="container-md transparent-bg my-5 p-3 p-sm-4 rounded"
+      id="skills"
+    >
+      <div class="fs-2 text-white text-center fw-bold">SKILLS</div>
+      <!-- SKILL'S FIRST ROW -->
+      <div class="mt-3">
+        <div class="row">
+          <!-- HTML -->
+          <div class="col-6 col-md-3 skill-item mb-3">
+            <div class="text-start text-white-50 mb-2">
+              <i class="fa-brands fa-html5 text-danger"></i> HTML
+            </div>
+            <div>
+              <div class="progress-bar html"></div>
+            </div>
+          </div>
+          <!-- CSS -->
+          <div class="col-6 col-md-3 skill-item mb-3">
+            <div class="text-start text-white-50 mb-2">
+              <i class="fa-brands fa-css3 text-primary"></i> CSS
+            </div>
+            <div>
+              <div class="progress-bar css"></div>
+            </div>
+          </div>
+          <!-- JAVASCRIPT -->
+          <div class="col-6 col-md-3 skill-item mb-3">
+            <div class="text-start text-white-50 mb-2">
+              <i class="fa-brands fa-js text-warning"></i> JavaScript
+            </div>
+            <div>
+              <div class="progress-bar js"></div>
+            </div>
+          </div>
+          <!-- BOOTSTRAP -->
+          <div class="col-6 col-md-3 skill-item mb-3">
+            <div class="text-start text-white-50 mb-2">
+              <i class="fa-brands fa-bootstrap text-info"></i> Bootstrap
+            </div>
+            <div>
+              <div class="progress-bar bs"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SKILL'S SECOND ROW -->
+      <div class="">
+        <div class="row">
+          <!-- jQuery -->
+          <div class="col-6 col-md-3 skill-item mb-3">
+            <div class="text-start text-white-50 mb-2">
+              <span class="text-primary">j</span>Query
+            </div>
+            <div>
+              <div class="progress-bar jquery"></div>
+            </div>
+          </div>
+          <!-- PHP -->
+          <div class="col-6 col-md-3 skill-item mb-3">
+            <div class="text-start text-white-50 mb-2">
+              <i class="fa-brands fa-php text-primary"></i> PHP
+            </div>
+            <div>
+              <div class="progress-bar php"></div>
+            </div>
+          </div>
+          <!-- Laravel -->
+          <div class="col-6 col-md-3 skill-item mb-3">
+            <div class="text-start text-white-50 mb-2">
+              <i class="fa-brands fa-laravel text-danger"></i> Laravel
+            </div>
+            <div>
+              <div class="progress-bar laravel"></div>
+            </div>
+          </div>
+          <!-- Vue -->
+          <div class="col-6 col-md-3 skill-item mb-3">
+            <div class="text-start text-white-50 mb-2">
+              <i class="fa-brands fa-vuejs text-success"></i> Vue.js
+            </div>
+            <div>
+              <div class="progress-bar vue"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ABOUT ME SECTION -->
+    <div class="container-lg my-5" id="about">
+      <div class="fs-2 text-white text-center fw-bold mb-4">ABOUT ME</div>
+      <div
+        class="row align-items-center align-items-md-start flex-column flex-md-row"
+      >
+        <!-- PERSONALITY SECTION START -->
+        <div class="col-12 col-md-6">
+          <div class="col-12">
+            <h3 class="text-white text-center text-decoration-underline">
+              Personality
+            </h3>
+          </div>
+          <div class="row justify-content-center">
+            <div
+              class="col-5 card transparent-bg text-white text-center m-3 p-2 p-sm-3 rounded-1"
+            >
+              <i class="fa-regular fa-square-check text-success display-5"></i>
+              <div class="card-title fs-6 mt-2 mb-0">Fast Learner</div>
+            </div>
+            <div
+              class="col-5 card transparent-bg text-white text-center m-3 p-2 p-sm-3 rounded-1"
+            >
+              <i class="fa-regular fa-lightbulb text-warning display-5"></i>
+              <div class="card-title fs-6 mt-2 mb-0">Creative</div>
+            </div>
+            <div
+              class="col-5 card transparent-bg text-white text-center m-3 p-2 p-sm-3 rounded-1"
+            >
+              <i class="fa-solid fa-laptop-code text-danger display-5"></i>
+              <div class="card-title fs-6 mt-2 mb-0">Logical Thinking</div>
+            </div>
+            <div
+              class="col-5 card transparent-bg text-white text-center m-3 p-2 p-sm-3 rounded-1"
+            >
+              <i class="fa-solid fa-glass-water text-primary display-5"></i>
+              <div class="card-title fs-6 mt-2 mb-0">Optimistic</div>
+            </div>
+          </div>
+        </div>
+        <!-- LEARNING SOURCES SECTION START -->
+        <div class="col-12 col-md-6">
+          <div class="col-12">
+            <h3 class="text-white text-center mb-4 text-decoration-underline">
+              My Learning Sources
+            </h3>
+          </div>
+          <div class="row justify-content-evenly gy-4">
+            <!-- SOURCE 1 -->
+            <div
+              class="course col-5 transparent-bg d-flex flex-column flex-lg-row align-items-center justify-content-center p-2 p-lg-3 rounded"
+            >
+              <div class="logo-img">
+                <img
+                  src="./Assets/images/logo-udemy.svg"
+                  width="60px"
+                  alt="Udemy Logo"
+                />
+              </div>
+              <div class="course-info p-1 text-center">
+                <a
+                  href="https://www.udemy.com/share/101XTS/"
+                  target="_blank"
+                  class="text-white text-decoration-none"
+                >
+                  <h3 class="fs-6">Udemy</h3>
+                  <p class="text-white-50 fs-11 mb-0">
+                    Modern JavaScript Course <br />
+                    by The Net Ninja
+                  </p>
+                </a>
+              </div>
+            </div>
+            <!-- SOURCE 2 -->
+            <div
+              class="course col-5 transparent-bg d-flex flex-column flex-lg-row align-items-center justify-content-center p-2 p-lg-3 rounded"
+            >
+              <div class="logo-img">
+                <img
+                  src="./Assets/images/The Net Ninja Logo.jpg"
+                  width="60px"
+                  alt="The Net Ninja Logo"
+                  class="rounded rounded-circle"
+                />
+              </div>
+              <div class="course-info p-1 text-center">
+                <a
+                  href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg"
+                  target="_blank"
+                  class="text-white text-decoration-none"
+                >
+                  <h3 class="fs-6">The Net Ninja Youtube Channel</h3>
+                  <p class="text-white-50 fs-11 mb-0">
+                    JavaScript Basic & Object-Orientend JavaScript
+                  </p>
+                </a>
+              </div>
+            </div>
+            <!-- SOURCE 3 -->
+            <div
+              class="course col-5 transparent-bg d-flex flex-column flex-lg-row align-items-center justify-content-center p-2 p-lg-3 rounded"
+            >
+              <div class="logo-img">
+                <img
+                  src="./Assets/images/CODE LAB LOGO.jpg"
+                  width="60px"
+                  alt="Code Lab Logo"
+                  class="rounded rounded-circle"
+                />
+              </div>
+              <div class="course-info p-1 text-center">
+                <a
+                  href="https://www.facebook.com/codelab.mm"
+                  target="_blank"
+                  class="text-white text-decoration-none"
+                >
+                  <h3 class="fs-6">C O D E - L A B</h3>
+                  <p class="text-white-50 fs-11 mb-0">
+                    A-Z Programming Class<br />
+                    JavaScript, jQuery, PHP, Laravel & Vue.js
+                  </p>
+                </a>
+              </div>
+            </div>
+            <!-- SOURCE 4 -->
+            <div
+              class="course col-5 transparent-bg d-flex flex-column flex-lg-row align-items-center justify-content-center p-2 p-lg-3 rounded"
+            >
+              <div class="logo-img">
+                <img
+                  src="./Assets/images/MMS One Stop IT Solutions Logo.png"
+                  width="60px"
+                  alt="MMS One Stop IT Solutions Logo"
+                  class="rounded rounded-circle"
+                />
+              </div>
+              <div class="course-info p-1 text-center">
+                <a
+                  href="https://www.facebook.com/mmsoss/"
+                  target="_blank"
+                  class="text-white text-decoration-none"
+                >
+                  <h3 class="fs-6">MMS One Stop IT Solutions</h3>
+                  <p class="text-white-50 fs-11 mb-0">
+                    Basic Web Design Course
+                  </p>
+                </a>
+              </div>
+            </div>
+            <!-- SOURCE 5 -->
+            <div
+              class="course col-5 transparent-bg d-flex flex-column flex-lg-row align-items-center justify-content-center p-2 p-lg-3 rounded"
+            >
+              <div class="logo-img">
+                <img
+                  src="./Assets/images/CS50.png"
+                  width="60px"
+                  alt="CS50 Logo"
+                />
+              </div>
+              <div class="course-info p-1 text-center">
+                <a
+                  href="https://youtube.com/playlist?list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4"
+                  target="_blank"
+                  class="text-white text-decoration-none"
+                >
+                  <h3 class="fs-6">CS50 Harvard University</h3>
+                  <p class="text-white-50 fs-11 mb-0">
+                    2022 Lectures <br />
+                    by David J. Malan
+                  </p>
+                </a>
+              </div>
+            </div>
+            <!-- SOURCE 6 -->
+            <div
+              class="course col-5 transparent-bg d-flex flex-column flex-lg-row align-items-center justify-content-center p-2 p-lg-3 rounded"
+            >
+              <div class="logo-img">
+                <img
+                  src="./Assets/images/Burma Academy.jpg"
+                  width="60px"
+                  alt="Burma Academy Logo"
+                />
+              </div>
+              <div class="course-info p-1 text-center">
+                <a
+                  href="https://apps.burma.ac/learning/course/course-v1:BurmaAcademy+BA032+2023_T1/"
+                  target="_blank"
+                  class="text-white text-decoration-none"
+                >
+                  <h3 class="fs-6">Burma Academy</h3>
+                  <p class="text-white-50 fs-11 mb-0">
+                    From PHP Dinosaur to PHP Ninja
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- PROJECTS SECTION -->
+    <div class="container-md my-5" id="projects">
+      <div class="col-12">
+        <h3 class="fs-2 text-light text-center my-3">Projects I've done</h3>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="project-card card bg-black">
+            <a href="https://osem-22.github.io/pov-channel/" target="_blank">
+              <img
+                src="./Assets/images/POV Channel.png"
+                class="card-img-top project-img"
+                alt="POV Movie Channel"
+              />
+            </a>
+
+            <div class="card-body text-white-50">
+              <h5 class="card-title fs-6">POV Movie Channel</h5>
+              <p class="card-text fs-7">HTML & CSS Only</p>
+              <div class="btn-group" role="group">
+                <a
+                  href="https://github.com/OsEm-22/pov-channel"
+                  target="_blank"
+                  class="btn btn-sm btn-info"
+                  >Check Code</a
+                >
+                <a
+                  href="https://osem-22.github.io/pov-channel/"
+                  target="_blank"
+                  class="btn btn-sm btn-primary"
+                  >Check Site</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="project-card card bg-black">
+            <a href="https://osem-22.github.io/pov-channel/" target="_blank">
+              <img
+                src="./Assets/images/Landkit.png"
+                class="card-img-top project-img"
+                alt="Lankit Website"
+              />
+            </a>
+
+            <div class="card-body text-white-50">
+              <h5 class="card-title fs-6">Lankit Website (clone)</h5>
+              <p class="card-text fs-7">HTML, CSS, Bootstrap & Sass</p>
+              <div class="btn-group" role="group">
+                <a
+                  href="https://github.com/OsEm-22/Landkit.test"
+                  target="_blank"
+                  class="btn btn-sm btn-info"
+                  >Check Code</a
+                >
+                <a
+                  href="https://osem-22.github.io/Landkit.test/"
+                  target="_blank"
+                  class="btn btn-sm btn-primary"
+                  >Check Site</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="project-card card bg-black">
+            <a
+              href="https://osem-22.github.io/JavaScript-Form-Validation/"
+              target="_blank"
+            >
+              <img
+                src="./Assets/images/form_validation.png"
+                class="card-img-top project-img"
+                alt="Form Validation"
+              />
+            </a>
+
+            <div class="card-body text-white-50">
+              <h5 class="card-title fs-6">Form Validation</h5>
+              <p class="card-text fs-7">HTML, CSS & JavaScript</p>
+              <div class="btn-group" role="group">
+                <a
+                  href="https://github.com/OsEm-22/JavaScript-Form-Validation"
+                  target="_blank"
+                  class="btn btn-sm btn-info"
+                  >Check Code</a
+                ><a
+                  href="https://osem-22.github.io/JavaScript-Form-Validation/"
+                  target="_blank"
+                  class="btn btn-sm btn-primary"
+                  >Check Site</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="project-card card bg-black">
+            <a href="https://github.com/OsEm-22/dota-2-clone" target="_blank">
+              <img
+                src="./Assets/images/Dota2_Clone.png"
+                class="card-img-top project-img"
+                alt="Dota 2 Website (Clone)"
+              />
+            </a>
+
+            <div class="card-body text-white-50">
+              <h5 class="card-title fs-6">Dota 2 Website (Clone)</h5>
+              <p class="card-text fs-7">HTML, CSS & Sass</p>
+              <div class="btn-group" role="group">
+                <a
+                  href="https://github.com/OsEm-22/dota-2-clone"
+                  target="_blank"
+                  class="btn btn-sm btn-info"
+                  >Check Code</a
+                ><a
+                  href="https://osem-22.github.io/dota-2-clone/"
+                  target="_blank"
+                  class="btn btn-sm btn-primary"
+                  >Check Site</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="project-card card bg-black">
+            <a href="https://osem-22.github.io/OsEm-Shop-MM/" target="_blank">
+              <img
+                src="./Assets/images/Fake_Store_API.png"
+                class="card-img-top project-img"
+                alt="Fake Store API Website"
+              />
+            </a>
+
+            <div class="card-body text-white-50">
+              <h5 class="card-title fs-6">Fake Store API Website</h5>
+              <p class="card-text fs-7">HTML, CSS & JavaScript(API)</p>
+              <div class="btn-group" role="group">
+                <a
+                  href="https://github.com/OsEm-22/OsEm-Shop-MM"
+                  target="_blank"
+                  class="btn btn-sm btn-info"
+                  >Check Code</a
+                ><a
+                  href="https://osem-22.github.io/OsEm-Shop-MM/"
+                  target="_blank"
+                  class="btn btn-sm btn-primary"
+                  >Check Site</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="project-card card bg-black">
+            <a href="https://osem-22.github.io/tip_calculator/" target="_blank">
+              <img
+                src="./Assets/images/tip_calculator.png"
+                class="card-img-top project-img"
+                alt="Tip Calculator Website"
+              />
+            </a>
+
+            <div class="card-body text-white-50">
+              <h5 class="card-title fs-6">Tip Calculator Website</h5>
+              <p class="card-text fs-7">HTML, CSS & JavaScript</p>
+              <div class="btn-group" role="group">
+                <a
+                  href="https://github.com/OsEm-22/tip_calculator"
+                  target="_blank"
+                  class="btn btn-sm btn-info"
+                  >Check Code</a
+                ><a
+                  href="https://osem-22.github.io/tip_calculator/"
+                  target="_blank"
+                  class="btn btn-sm btn-primary"
+                  >Check Site</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT SECTION -->
+    <div class="container-md my-5" id="contact">
+      <h3 class="text-light my-4">Contact Me</h3>
+      <div class="row">
+        <div class="mb-3">
+          <a
+            class="text-decoration-none text-light"
+            target="_blank"
+            href="tel:+959965895956"
+          >
+            <i class="fa-solid fa-phone fa-fw"></i> 09 - 96 589 5956
+          </a>
+        </div>
+        <div class="mb-3">
+          <a
+            class="text-decoration-none text-light"
+            target="_blank"
+            href="mailto:oaksoem49@gmail.com"
+          >
+            <i class="fa-solid fa-envelope fa-fw"></i> oaksoem49@gmail.com
+          </a>
+        </div>
+        <div class="mb-3">
+          <a
+            class="text-decoration-none text-light"
+            target="_blank"
+            href="viber:+959965895956"
+          >
+            <i class="fa-brands fa-viber fa-fw"></i> 09 - 96 589 5956
+          </a>
+        </div>
+        <div class="mb-3">
+          <a
+            class="text-decoration-none text-light"
+            href="https://github.com/OsEm-22"
+            target="_blank"
+          >
+            <i class="fa-brands fa-github fa-fw"></i> OsEm-22
+          </a>
+        </div>
+        <div class="mb-3">
+          <a
+            class="text-decoration-none text-light"
+            href="https://www.linkedin.com/in/oak-soe-m-2550b621a/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin fa-fw"></i> Oak Soe (OsEm) Maung
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="Assets/scripts/prograss_bar.js"></script>
+</html>

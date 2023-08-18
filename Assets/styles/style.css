@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background: url(../images/black-background-2.jpg) no-repeat fixed center;
+  background-size: cover;
+}
+
+.transparent-bg {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.fs-11 {
+  font-size: 11px;
+}
+
+.project-card {
+  /* for the same sizes */
+  height: 400px;
+}
+
+.project-img {
+  height: 240px;
+  object-fit: contain;
+  transition: 0.3s;
+}
+
+.project-img:hover {
+  transform: scale(1.01);
+}
+
+/* FOR PROGRESS BAR ANIMATION */
+
+.progress-bar {
+  width: 0;
+  height: 15px;
+  color: #fff;
+  background-color: #0d6efd;
+  font-size: 12px;
+}
+
+/* .progress-bar {
+  width: 0%;
+  height: 20px;
+  background-color: #ddd;
+  animation: progress-bar 2s ease-out forwards;
+}
+
+@keyframes progress-bar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+} */
+
+/* ADDITIONAL CODES FOR PERFECT RESPONSIVE */
+@media screen and (max-width: 310px) {
+  #intro {
+    padding: 10px !important;
+  }
+
+  .course {
+    padding: 0 !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .project-card {
+    height: 290px;
+  }
+
+  .project-img {
+    height: 130px;
+  }
+
+  .fs-7 {
+    font-size: 13px;
+  }
+}
